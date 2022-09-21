@@ -11,6 +11,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "MyTeam";
         }
+        if (query.toLowerCase().contains("rachel")) {
+            return "Rachel Martini (06 June 2022 - present) is an " +
+                    "Chicago girl, athlete, and student, widely regarded as the greatest ever";
+        }
         return "";
     }
 }
