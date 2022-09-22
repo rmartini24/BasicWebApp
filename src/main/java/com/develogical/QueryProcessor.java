@@ -9,7 +9,7 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
         if (query.toLowerCase().contains("name")) {
-            return "MyTeam";
+            return "HelloWorld";
         }
         if (query.toLowerCase().contains("rachel")) {
             return "Rachel Martini (06 June 2022 - present) is an " +
