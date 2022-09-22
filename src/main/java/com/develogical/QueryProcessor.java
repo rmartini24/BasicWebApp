@@ -15,6 +15,15 @@ public class QueryProcessor {
             return "Rachel Martini (06 June 2022 - present) is an " +
                     "Chicago girl, athlete, and student, widely regarded as the greatest ever";
         }
+
+        if (query.toLowerCase().contains("plus")) {
+            String[] parts = query.split(" ");
+            int first_number = Integer.parseInt(parts[2]);
+            int second_number = Integer.parseInt(parts[4]);
+            Integer res = first_number + second_number;
+            return res.toString();
+        }
+
         return "";
     }
 }
